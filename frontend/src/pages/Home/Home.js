@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Search from '../../components/Search/Search';
+import bellidus from '../Home/bellidus.png';
 
 import AppsIcon from '@material-ui/icons/Apps';
 import { Avatar } from '@material-ui/core';
@@ -26,7 +27,7 @@ function Home() {
             </div>
 
             <div className="home__body">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo" />
+                <img src={bellidus} alt="Logo" />
 
                 <div className="home__inputContainer">
                     <Search />
