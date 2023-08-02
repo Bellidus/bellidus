@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bellidus-backend"
+version = "0.1.0"
+description = "Bellidus Backend Application"
+authors = ["Bellidus <iambellidus@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bellidus_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+djangorestframework = "^3.14.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
