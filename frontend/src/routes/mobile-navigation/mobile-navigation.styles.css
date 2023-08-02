@@ -1,0 +1,95 @@
+.hamburger-icon {
+  position: absolute;
+  background-color: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  z-index: 10;
+  right: 57px;
+  top: 61px;
+}
+.hamburger-icon .line-one {
+  background-color: white;
+  border-radius: 3px;
+  width: 20px;
+  height: 5px;
+  margin: 4px auto 0px auto;
+}
+.hamburger-icon .line-two {
+  background-color: white;
+  border-radius: 3px;
+  width: 20px;
+  height: 5px;
+  margin: 3px auto;
+}
+.hamburger-icon .line-three {
+  background-color: white;
+  border-radius: 3px;
+  width: 20px;
+  height: 5px;
+  margin: 3px auto;
+}
+
+.no-display {
+  display: none;
+}
+
+.mobile-navigation-container {
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 15px;
+  color: blue;
+  margin: 0px auto;
+  width: 40%;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  top: 60px;
+  right: 50%;
+  transform: translate(50%);
+}
+.mobile-navigation-container .website-title-container h1 {
+  font-style: oblique;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.mobile-navigation-container .website-title-container h1 .nav-link {
+  color: blue;
+  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-size: 36px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+.mobile-navigation-container .website-title-container h1:hover {
+  cursor: pointer;
+}
+.mobile-navigation-container .mobile-navigation-links {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.mobile-navigation-container .mobile-navigation-links ul li {
+  margin: 10px 0px;
+}
+
+@media screen and (min-width: 901px) {
+  .mobile-navbar-dropdown-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 418px) and (max-width: 450px) {
+  .hamburger-icon {
+    right: 10px;
+  }
+  .website-title-container h1 .nav-link {
+    font-size: 24px;
+  }
+  .mobile-navigation-container .mobile-navigation-links {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 417px) {
+  .hamburger-icon {
+    right: 25px;
+  }
+}/*# sourceMappingURL=mobile-navigation.styles.css.map */

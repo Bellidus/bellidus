@@ -1,0 +1,15 @@
+.categories-preview-container {
+  border-top: 2px solid blue;
+  margin-top: 15px;
+  padding: 0px 15px;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
+}
+
+@media screen and (max-width: 975px) {
+  .categories-preview-container {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=categories-preview.styles.css.map */

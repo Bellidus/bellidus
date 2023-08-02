@@ -1,0 +1,34 @@
+.payment-form-container {
+  max-width: 300px;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+}
+.payment-form-container h2 {
+  margin: 15px auto;
+}
+.payment-form-container button {
+  border: 2px solid blue;
+  border-radius: 15px;
+  margin: 15px auto;
+  padding: 10px 20px;
+}
+.payment-form-container button:hover {
+  color: white;
+  background-color: blue;
+}
+.payment-form-container .spinner-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  border-top-color: red;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=payment-form.styles.css.map */

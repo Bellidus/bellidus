@@ -1,0 +1,56 @@
+.my-account-container {
+  border-top: 2px solid blue;
+  color: blue;
+  min-height: 460px;
+  margin: 15px auto 0px auto;
+  padding: 25px;
+  text-align: center;
+  max-width: 1150px;
+}
+.my-account-container .my-account-content {
+  font-size: 38px;
+}
+.my-account-container .my-account-content .user-information .user-photo {
+  border: 2px solid blue;
+  border-radius: 15px;
+  height: 140px;
+  margin: 10px auto;
+}
+.my-account-container .my-account-content .user-email {
+  font-size: 30px;
+}
+.my-account-container .my-account-content .buttons-container button {
+  border: 2px solid blue;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px 15px;
+}
+.my-account-container .my-account-content .buttons-container button:hover {
+  color: white;
+  background-color: blue;
+}
+.my-account-container .login-needed {
+  font-size: 38px;
+}
+.my-account-container .login-needed button {
+  border: 2px solid blue;
+  border-radius: 15px;
+  display: block;
+  padding: 10px 15px;
+  margin: 20px auto 0px auto;
+}
+.my-account-container .login-needed button:hover {
+  background-color: blue;
+  color: white;
+}
+
+@media screen and (max-width: 450px) {
+  .my-account-container {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .my-account-container {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=my-account.styles.css.map */

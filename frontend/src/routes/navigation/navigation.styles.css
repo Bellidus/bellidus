@@ -1,0 +1,118 @@
+.address-bar-container {
+  display: flex;
+  padding: 0px 15px;
+  position: absolute;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
+  z-index: 1;
+}
+.address-bar-container .website-title-container h1 {
+  font-style: oblique;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.address-bar-container .website-title-container h1 .nav-link {
+  color: blue;
+  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+.address-bar-container .website-title-container h1:hover {
+  cursor: pointer;
+}
+.address-bar-container .navigation-container ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 450px;
+  padding: 0px;
+}
+.address-bar-container .navigation-container ul li {
+  text-decoration: none;
+}
+.address-bar-container .navigation-container ul li:last-child {
+  color: blue;
+}
+.address-bar-container .navigation-container ul li:hover {
+  cursor: pointer;
+}
+.address-bar-container .search-box-container {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.4;
+}
+.address-bar-container .search-box-container .search-box {
+  background-color: lightcyan;
+  border: 2px solid blue;
+  border-radius: 4px;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  padding: 0px;
+  width: 120px;
+  line-height: 25px;
+  margin-top: 10px;
+  padding: 0px 5px;
+}
+.address-bar-container .search-box-container:hover {
+  opacity: 1;
+}
+.address-bar-container .authen-button {
+  border-top: none;
+  color: black;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 16px 0px 0px 0px;
+  padding: 0px;
+  height: 20px;
+}
+.address-bar-container .authen-button:hover {
+  cursor: pointer;
+}
+.address-bar-container .shop-icon-container {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.address-bar-container .shop-icon-container:hover {
+  cursor: pointer;
+}
+
+.address-bar-container:hover {
+  background-color: white;
+}
+
+@media screen and (max-width: 975px) {
+  .search-box-container {
+    display: none;
+  }
+}
+/* *** Hides Hamburger Menu for screens bigger than 900px *** */
+@media screen and (min-width: 901px) {
+  .hamburger-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .address-bar-container {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+}/*# sourceMappingURL=navigation.styles.css.map */

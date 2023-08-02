@@ -1,0 +1,21 @@
+.shop-container {
+    border-top: 2px solid blue;
+    margin-top: 15px;
+    width: 100%;
+
+    h2 {
+        color: blue;
+        font-size: 30px;
+        font-style: oblique;
+        margin-bottom: 0px;
+        padding: 10px 0px 0px 25px;
+        text-transform: capitalize;
+    }
+
+    .products-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 10px;
+        row-gap: 50px;
+    }
+}

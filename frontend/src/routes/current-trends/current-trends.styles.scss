@@ -1,0 +1,100 @@
+// ***** TRENDS *****
+.trends-container {
+    text-align: center;
+
+    max-width: 1150px;
+	position: relative;
+	left: 50%;
+	translate: -50%;
+
+    
+    .trends-text {
+        border-bottom: 2px solid blue;
+        color: blue;
+        font-weight: bold;
+        font-family: Gabriola, sans-serif;
+        font-size: 20px;
+        margin: 35px auto 25px auto;
+        padding-bottom: 8px;
+        text-transform: uppercase;
+    }
+    
+    .trends-image-container {   
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        
+        .left-trend-container {
+        background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/two-piece/red-two-piece.jpg?updatedAt=1683945103052');
+        background-repeat: no-repeat;
+        background-position: top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 60px;
+        height: 500px;
+        width: 40%;
+
+        p {
+            color: blue;
+            font-family: 'Segoe Script', Gabriola, sans-serif;
+            font-size: 62px;
+            margin-top: 315px;
+            transform: rotate(-10deg);
+        }
+    }
+
+    .left-trend-container:hover {
+        cursor: pointer;
+     }
+
+    .right-trend-container {
+        background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/dresses/purple-flowers-black-dress.jpg?updatedAt=1683944463030');
+        background-repeat: no-repeat;
+        background-position: top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 500px;
+        width: 40%;
+
+        p {
+            color: blue;
+            font-family: 'Segoe Script', Gabriola, sans-serif;
+            font-size: 62px;
+            margin-top: 310px;
+            transform: rotate(10deg);
+        }
+     }
+
+     .right-trend-container:hover {
+        cursor: pointer;
+     }
+    }
+}
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 450px) {
+    .trends-container {
+        .trends-image-container {
+            display: block;
+
+            .left-trend-container {
+                width: 100%;
+                margin-left: 0px;
+                margin-bottom: 10px;
+            }
+
+            .right-trend-container {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.authentication-container {
+  border-top: 2px solid blue;
+  color: blue;
+  height: 650px;
+  margin: 15px auto 0px auto;
+  max-width: 1150px;
+}
+.authentication-container .authentication-text-container {
+  margin: 50px auto;
+  width: 80%;
+}
+.authentication-container .authentication-text-container .authentication-methods-container {
+  display: flex;
+  justify-content: space-around;
+}
+.authentication-container .authentication-text-container .authentication-methods-container .sign-in-method {
+  border: 2px solid blue;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  height: 550px;
+  width: 350px;
+}
+.authentication-container .authentication-text-container .authentication-methods-container .sign-in-method h2 {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.authentication-container .authentication-text-container .authentication-methods-container .sign-in-method button {
+  border: 2px solid royalblue;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 10px 20px;
+}
+.authentication-container .authentication-text-container .authentication-methods-container .sign-in-method button:hover {
+  background-color: royalblue;
+  color: white;
+}
+.authentication-container .authentication-text-container .authentication-methods-container .sign-up-method {
+  border: 2px solid blue;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  height: 550px;
+  width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .authentication-container {
+    height: 100%;
+    margin-top: 0px;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container {
+    display: block;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container .sign-in-method {
+    width: 100%;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container .sign-up-method {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 975px) {
+  .authentication-container {
+    height: 100%;
+    margin-top: 0px;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container {
+    display: block;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container .sign-in-method {
+    margin: 0px auto 15px auto;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container .sign-up-method {
+    margin: 20px auto 0px auto;
+  }
+}/*# sourceMappingURL=authentication.styles.css.map */
