@@ -1,0 +1,100 @@
+.authentication-container {
+    border-top: 2px solid blue;
+    color: blue;
+    height: 650px;
+    margin: 15px auto 0px auto;
+
+    max-width: 1150px;
+
+    .authentication-text-container {
+        margin: 50px auto;
+        width: 80%;
+        
+        .authentication-methods-container {
+            display: flex;
+            justify-content: space-around;
+
+            .sign-in-method {
+                border: 2px solid blue;
+                border-radius: 15px;
+                padding: 15px;
+                text-align: center;
+                height: 550px;
+                width: 350px;
+
+                h2 {
+                    font-size: 24px;
+                    font-style: italic;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+
+                button {
+                    border: 2px solid royalblue;
+                    border-radius: 10px;
+                    margin-top: 25px;
+                    padding: 10px 20px;
+                }
+
+                button:hover {
+                    background-color: royalblue;
+                    color: white;
+                }
+            }
+
+            .sign-up-method {
+                border: 2px solid blue;
+                border-radius: 15px;
+                padding: 15px;
+                text-align: center;
+                height: 550px;
+                width: 400px;
+            }
+        }
+    }
+}
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 450px) {
+.authentication-container {
+    height: 100%;
+    margin-top: 0px;
+
+    .authentication-text-container {
+        
+        .authentication-methods-container {
+            display: block;
+
+            .sign-in-method {
+                width: 100%;
+            }
+
+            .sign-up-method {
+                width: 100%;
+            }
+        }
+    }
+}    
+}
+
+@media screen and (max-width: 975px) {
+.authentication-container {
+    height: 100%;
+    margin-top: 0px;
+
+    .authentication-text-container {
+        
+        .authentication-methods-container {
+            display: block;
+
+            .sign-in-method {
+                margin: 0px auto 15px auto;
+            }
+
+            .sign-up-method {
+                margin: 20px auto 0px auto;
+            }
+        }
+    }
+}
+}

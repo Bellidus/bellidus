@@ -1,0 +1,33 @@
+.sales-bar-container {
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 1px;
+}
+.sales-bar-container h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0px 0px 0px;
+}
+.sales-bar-container p {
+  font-size: 10px;
+  margin: 2px 0px 0px 0px;
+}
+
+@media screen and (max-width: 975px) {
+  .sales-bar-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sales-bar-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .sales-bar-container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=promotion.styles.css.map */

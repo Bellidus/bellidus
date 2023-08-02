@@ -1,0 +1,108 @@
+// ***** links and social media *****
+.links-and-social-media {
+    border-top: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+    width: 100%;
+
+    max-width: 1150px;
+	position: relative;
+	left: 50%;
+	translate: -50%;
+
+
+    .social-media-symbols {
+        display: flex;
+
+        p {
+            margin: 0px 12px;
+        }
+
+        p:hover {
+            cursor: pointer;
+        }
+    }
+
+    .misc-links {
+        color: gray;
+
+        h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .quick-access-link {
+            color: gray;
+            display: block;
+            margin: 10px 0px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        p:hover {
+            cursor: pointer;
+        }
+    }
+
+    .quick-access {
+        color: gray;
+
+        h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    
+        .quick-access-link {
+            color: gray;
+            display: block;
+            margin: 10px 0px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        .quick-access-link:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 450px) {
+    .links-and-social-media {
+        display: block;
+
+        .social-media-symbols {
+            margin-bottom: 15px;
+        }
+
+        .misc-links {
+            h3 {
+                color: black;
+                margin-bottom: 10px;
+                margin-left: 8px;
+            }
+
+            .quick-access-link {
+                display: inline-block;
+                margin: 0px 10px 15px 10px;
+                font-weight: bold;
+            }
+        }
+
+        .quick-access {
+            h3 {
+                color: black;
+                margin-bottom: 10px;
+                margin-left: 8px;
+            }
+
+            .quick-access-link {
+                display: inline-block;
+                margin: 0px 10px 15px 10px;
+                font-weight: bold;            }
+        }
+    }
+}

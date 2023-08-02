@@ -1,0 +1,55 @@
+.our-story-container {
+  border-top: 2px solid blue;
+  text-align: center;
+  margin: 15px 0px;
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
+}
+.our-story-container .our-story-text-container {
+  margin: 0 auto;
+  width: 80%;
+}
+.our-story-container .our-story-text-container h2 {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.our-story-container .our-story-text-container h3 {
+  color: blue;
+  font-family: Gabriola, sans-serif;
+  font-size: 44px;
+  margin: 50px auto;
+  text-transform: uppercase;
+}
+.our-story-container .our-story-text-container p {
+  line-height: 1.4;
+  margin: 20px;
+}
+.our-story-container .our-story-text-container .our-story-signature {
+  color: blue;
+}
+.our-story-container .our-story-text-container .signature-image {
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/our-story-signature/nicole.jpg?updatedAt=1684462311367");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  border-radius: 5px;
+  height: 450px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .our-story-container {
+    margin-top: 0px;
+  }
+  .our-story-container .our-story-text-container h2 {
+    margin-top: 10px;
+  }
+  .our-story-container .our-story-text-container h3 {
+    margin: 10px auto;
+  }
+}/*# sourceMappingURL=our-story.styles.css.map */

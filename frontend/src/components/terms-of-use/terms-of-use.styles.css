@@ -1,0 +1,46 @@
+.terms-of-use-container {
+  border-top: 2px solid blue;
+  text-align: center;
+  margin-top: 15px;
+  padding: 50px 0px;
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
+}
+.terms-of-use-container .terms-of-use-text-container {
+  width: 80%;
+  margin: 0px auto;
+}
+.terms-of-use-container .terms-of-use-text-container h2 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.terms-of-use-container .terms-of-use-text-container .text-section-container {
+  text-align: left;
+}
+.terms-of-use-container .terms-of-use-text-container .text-section-container h3 {
+  color: blue;
+  font-style: italic;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+.terms-of-use-container .terms-of-use-text-container .text-section-container p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.terms-of-use-container .terms-of-use-text-container .text-section-container p span {
+  color: blue;
+}
+
+@media screen and (max-width: 900px) {
+  .terms-of-use-container {
+    margin-top: 0px;
+    padding: 15px 0px;
+  }
+  .terms-of-use-container .terms-of-use-text-container h2 {
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=terms-of-use.styles.css.map */
