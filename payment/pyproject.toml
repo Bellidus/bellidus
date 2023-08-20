@@ -1,16 +1,14 @@
 [tool.poetry]
-name = "core backend"
+name = "payment-backend"
 version = "0.1.0"
-description = "Core Backend"
+description = "Payment Backend"
 authors = ["Hector"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "payment_backend"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-django = "^4.2.4"
-djangorestframework = "^3.14.0"
-requests = "^2.31.0"
 
 
 [build-system]

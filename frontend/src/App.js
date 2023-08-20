@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import './App.styles.css';
 
 import Home from './routes/home/home.component';
-import OurStory from './components/our-story/our-story.component';
+import OurStory from './components/our-story/our-story';
 import Foundations from './components/foundations/foundations.components';
 import TermsOfUse from './components/terms-of-use/terms-of-use.component';
 import Returns from './components/returns/returns.components';
