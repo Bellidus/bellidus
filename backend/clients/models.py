@@ -1,4 +1,5 @@
 from django.db import models
+import uuid  # Importação necessária para usar o UUIDField
 
 class Client(models.Model):
     id = models.UUIDField(primary_key=True, editable=False, default=uuid.uuid4)
